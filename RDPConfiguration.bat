@@ -8,14 +8,14 @@ reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fAllowToGetHelp  /t REG_DWORD /d 0 /f
 
+
+cd C:\Users\Administrator\Desktop
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/7z.exe
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/dcontrol.zip
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/curl.exe
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/7z.dll
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/nircmd.exe
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/ngrok.exe
-
-cd C:\Users\Administrator\Desktop
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/chromesetup.exe
 curl -LJOk https://raw.githubusercontent.com/4lT4lR/RDP-Control/main/firefox.exe
 curl -LJOk anti-close.bat
